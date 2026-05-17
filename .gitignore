@@ -1,0 +1,30 @@
+# 1. Environment Variables (Secret keys)
+.env
+
+# 2. Python Virtual Environment
+venv/
+.venv/
+env/
+
+# 3. Python Cache 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. VS Code & IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 5. Local Data 
+data/raw/*.csv
+data/processed/*.csv
+
+# 6. Saved Models 
+# models/regression/*.pkl
+# models/classification/*.pkl
